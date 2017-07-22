@@ -1,0 +1,23 @@
+{
+  "name": "gka-tpl-percent",
+  "version": "0.0.2",
+  "description": "gka template percent",
+  "main": "index.js",
+  "scripts": {
+  },
+  "homepage": "https://github.com/gka-tpl/gka-tpl-percent",
+  "bugs": {
+    "url": "https://github.com/gka-tpl/gka-tpl-percent/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gka-tpl/gka-tpl-percent.git"
+  },
+  "keywords": [
+    "gka",
+    "template",
+    "sprites"
+  ],
+  "author": "joeyguo",
+  "license": "MIT"
+}
