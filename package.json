@@ -1,6 +1,6 @@
 {
   "name": "gka-tpl-percent",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "gka template percent",
   "main": "index.js",
   "scripts": {
