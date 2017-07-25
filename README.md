@@ -15,6 +15,10 @@
 - 开启合图优化 ✓
 - 开启相同帧图片复用 ✓
 
+### 说明
+
+该模板适合在动画帧图片间是跳跃性的，如上面 [example](https://gkajs.github.io/gka-tpl-percent/example/gka.html) ，对于图片帧是连续像素的移动的，请使用 [gka-tpl-sprites](https://github.com/gkajs/gka-tpl-sprites)
+
 # Install
 
 ```sh
@@ -61,5 +65,5 @@ $ gka E:\gka-test\img -t percent
 
 # Use GKA
 
-[https://github.com/joeyguo/gka](https://github.com/joeyguo/gka)
+[https://github.com/gkajs/gka](https://github.com/gkajs/gka)
 
