@@ -5,13 +5,13 @@
 <a href="https://www.npmjs.org/package/gka-tpl-percent"><img src="https://img.shields.io/npm/v/gka-tpl-percent.svg?style=flat"></a>
 <a href="https://github.com/joeyguo/gka-tpl-percent#license"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 
-[gka](https://github.com/joeyguo/gka) 文件生成模板，一键式生成 css keyframes 序列帧动画文件，并内置优化。
+[gka](https://github.com/joeyguo/gka) 文件生成模板，一键式生成可自适应缩放的 css keyframes 序列帧动画文件，并内置优化。
 
 [在线示例](https://gkajs.github.io/gka-tpl-percent/example/gka.html)
 
 ### 内置优化
 
-- 支持图片自适应 ✓
+- 支持雪碧图自适应 ✓
 - 开启合图优化 ✓
 - 开启相同帧图片复用 ✓
 
