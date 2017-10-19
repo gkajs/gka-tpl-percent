@@ -9,6 +9,8 @@
 
 [在线示例](https://gkajs.github.io/gka-tpl-percent/example/gka.html)
 
+相关文章：[gka 一键制作自适应等比缩放的雪碧图动画](https://github.com/joeyguo/blog/issues/16)
+
 ### 内置优化
 
 - 支持雪碧图自适应 ✓
