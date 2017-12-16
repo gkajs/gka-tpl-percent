@@ -13,11 +13,11 @@
     </div>
     <div style="position: fixed; bottom: 60px;">
         Change the width：
-        <input type="range" min="350" max="450" value="400" class="range" id="range">
+        <input type="range" min="0" max="800" value="400" class="range" id="range">
     </div>
     <div style="position: fixed; bottom: 10px;">
         Powered By <a target="_blank" href="https://github.com/gkajs/gka">gka</a> .
-        Template By <a target="_blank" href="https://github.com/gkajs/gka-tpl-percent">gka-tpl-percent</a>
+        Template By <a target="_blank" href="https://github.com/gkajs/gka-tpl-percent">gka-tpl-percent</a> 1.1.1
     </div>
     <script>
         range.oninput = function () {
@@ -36,7 +36,7 @@
         });
     }
 
-    var imgNames = ["gka_sprites.png"];
+    var imgNames = ["sprites.png"];
 
     loadImage(imgNames, function() {
         document.getElementById('gka').className += " animation"

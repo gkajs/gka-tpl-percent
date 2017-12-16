@@ -5,8 +5,6 @@
 
     background-repeat: no-repeat;
 
-    background-size: 400% 500%;
-
     animation-timing-function: steps(1);
     animation-fill-mode: forwards;
 
@@ -17,75 +15,97 @@
 }
 
 .animation {
-    background-image: url("./img/gka_sprites.png");
-
     animation-name: keyframes;
-    animation-duration: 1.2s;
+    animation-duration: 0.8s;
+    background-image: url("./img/sprites.png");
+    background-size: 2000% 100%;
+
 }
 
 @-webkit-keyframes keyframes {
     0%{
-        background-position: 33.33333333333333% 0%;
+        background-position: 5.263157894736842% 0%;
+        background-size: 2000% 100%;
     }
     5.00%{
-        background-position: 33.33333333333333% 75%;
+        background-position: 52.63157894736842% 0%;
+        background-size: 2000% 100%;
     }
     10.00%{
-        background-position: 0% 25%;
+        background-position: 10.526315789473683% 0%;
+        background-size: 2000% 100%;
     }
     15.00%{
-        background-position: 33.33333333333333% 25%;
+        background-position: 15.789473684210526% 0%;
+        background-size: 2000% 100%;
     }
     20.00%{
-        background-position: 66.66666666666666% 0%;
+        background-position: 21.052631578947366% 0%;
+        background-size: 2000% 100%;
     }
     25.00%{
-        background-position: 66.66666666666666% 25%;
+        background-position: 26.31578947368421% 0%;
+        background-size: 2000% 100%;
     }
     30.00%{
-        background-position: 0% 50%;
+        background-position: 31.57894736842105% 0%;
+        background-size: 2000% 100%;
     }
     35.00%{
-        background-position: 33.33333333333333% 50%;
+        background-position: 36.84210526315789% 0%;
+        background-size: 2000% 100%;
     }
     40.00%{
-        background-position: 66.66666666666666% 50%;
+        background-position: 42.10526315789473% 0%;
+        background-size: 2000% 100%;
     }
     45.00%{
-        background-position: 0% 75%;
+        background-position: 47.368421052631575% 0%;
+        background-size: 2000% 100%;
     }
     50.00%{
         background-position: 0% 0%;
+        background-size: 2000% 100%;
     }
     55.00%{
-        background-position: 66.66666666666666% 75%;
+        background-position: 57.89473684210527% 0%;
+        background-size: 2000% 100%;
     }
     60.00%{
-        background-position: 100% 0%;
+        background-position: 63.1578947368421% 0%;
+        background-size: 2000% 100%;
     }
     65.00%{
-        background-position: 100% 25%;
+        background-position: 68.42105263157895% 0%;
+        background-size: 2000% 100%;
     }
     70.00%{
-        background-position: 100% 50%;
+        background-position: 73.68421052631578% 0%;
+        background-size: 2000% 100%;
     }
     75.00%{
-        background-position: 100% 75%;
+        background-position: 78.94736842105263% 0%;
+        background-size: 2000% 100%;
     }
     80.00%{
-        background-position: 0% 100%;
+        background-position: 84.21052631578947% 0%;
+        background-size: 2000% 100%;
     }
     85.00%{
-        background-position: 33.33333333333333% 100%;
+        background-position: 89.47368421052632% 0%;
+        background-size: 2000% 100%;
     }
     90.00%{
-        background-position: 66.66666666666666% 100%;
+        background-position: 94.73684210526315% 0%;
+        background-size: 2000% 100%;
     }
     95.00%{
-        background-position: 100% 100%;
+        background-position: 100% 0%;
+        background-size: 2000% 100%;
     }
     100%{
-        background-position: 100% 100%;
+        background-position: 100% 0%;
+        background-size: 2000% 100%;
     }
 
 }
