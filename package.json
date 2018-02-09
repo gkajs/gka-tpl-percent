@@ -1,10 +1,9 @@
 {
   "name": "gka-tpl-percent",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "gka template percent",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "homepage": "https://github.com/gkajs/gka-tpl-percent",
   "bugs": {
     "url": "https://github.com/gkajs/gka-tpl-percent/issues"
@@ -19,5 +18,8 @@
     "sprites"
   ],
   "author": "joeyguo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gka-utils": "0.0.1"
+  }
 }
