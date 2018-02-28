@@ -1,6 +1,6 @@
 {
   "name": "gka-tpl-percent",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "gka template percent",
   "main": "index.js",
   "scripts": {},
@@ -20,6 +20,6 @@
   "author": "joeyguo",
   "license": "MIT",
   "dependencies": {
-    "gka-utils": "0.0.1"
+    "gka-utils": "^0.0.3"
   }
 }

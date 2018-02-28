@@ -1,18 +1,18 @@
-var gkaUtils = require('gka-utils'),
-    writeSync = gkaUtils.file.writeSync;
-var html = require("./lib/html"),
-    css = require("./lib/css");
+var gkaUtils = require('gka-utils');
+var css = require("./lib/css"),
+    html = require("./lib/html");
+
+var writeSync = gkaUtils.file.writeSync;
 
 module.exports = function (data, opts, cb) {
-    
-    var dir = opts.imageDir;
+    var dir = opts.imgOutput;
 
     function run(data, opts, key) {
         var name = (key? key + '-' : '') + 'gka',
             cssName = name + '.css',
             htmlName = name + '.html';
 
-     	writeSync([dir, '..', cssName], css(data, opts));
+        writeSync([dir, '..', cssName], css(data, opts));
         writeSync([dir, '..', htmlName], html(data, opts, cssName));
     }
 
@@ -24,3 +24,10 @@ module.exports = function (data, opts, cb) {
     cb && cb();
 };
 
+module.exports.config = function(opts) {
+    // console.log(opts)
+    return {
+        crop: false,
+        sprites: true,
+    }
+};
