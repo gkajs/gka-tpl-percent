@@ -7,15 +7,15 @@
 
 [gka](https://github.com/joeyguo/gka) 文件生成模板，一键式图片资源优化，生成序列帧动画文件。
 
-- [示例预览](https://gkajs.github.io/gka-tpl-percent/example/gka.html)
-- [示例代码](https://github.com/gkajs/gka-tpl-percent/tree/master/example)
-
-相关文章：[gka 一键制作自适应等比缩放的雪碧图动画](https://github.com/joeyguo/blog/issues/16)
-
 - 输出 css 百分比动画文件
 - 使用该方案支持 `移动端多倍图适配`✓ `自适应缩放雪碧图`✓ 
 - 结合 -u 支持 `相同帧图片复用`✓ (可选) 
 - 默认开启 `开启合图优化`✓
+
+* [示例预览](https://gkajs.github.io/gka-tpl-percent/example/gka.html)
+* [示例代码](https://github.com/gkajs/gka-tpl-percent/tree/master/example)
+
+相关文章：[gka 一键制作自适应等比缩放的雪碧图动画](https://github.com/joeyguo/blog/issues/16)
 
 ### 说明
 
