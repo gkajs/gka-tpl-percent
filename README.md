@@ -12,8 +12,7 @@
 - 结合 -u 支持 `相同帧图片复用`✓ (可选) 
 - 默认开启 `开启合图优化`✓
 
-* [示例预览](https://gkajs.github.io/gka-tpl-percent/example/gka.html)
-* [示例代码](https://github.com/gkajs/gka-tpl-percent/tree/master/example)
+[示例预览](https://gkajs.github.io/gka-tpl-percent/example/gka.html)、 [示例代码](https://github.com/gkajs/gka-tpl-percent/tree/master/example)
 
 相关文章：[gka 一键制作自适应等比缩放的雪碧图动画](https://github.com/joeyguo/blog/issues/16)
 
